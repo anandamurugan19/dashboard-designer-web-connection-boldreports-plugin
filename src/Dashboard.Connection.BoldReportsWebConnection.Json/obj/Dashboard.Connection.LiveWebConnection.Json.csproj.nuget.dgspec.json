@@ -1,0 +1,208 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\boldReport\\dashboard-designer-web-connection-live-plugin\\src\\Dashboard.Connection.LiveWebConnection.Json\\Dashboard.Connection.LiveWebConnection.Json.csproj": {}
+  },
+  "projects": {
+    "D:\\boldReport\\dashboard-designer-web-connection-live-plugin\\src\\Dashboard.Connection.LiveWebConnection.Json\\Dashboard.Connection.LiveWebConnection.Json.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\boldReport\\dashboard-designer-web-connection-live-plugin\\src\\Dashboard.Connection.LiveWebConnection.Json\\Dashboard.Connection.LiveWebConnection.Json.csproj",
+        "projectName": "Syncfusion.Dashboard.Connection.LiveWebConnection.Json",
+        "projectPath": "D:\\boldReport\\dashboard-designer-web-connection-live-plugin\\src\\Dashboard.Connection.LiveWebConnection.Json\\Dashboard.Connection.LiveWebConnection.Json.csproj",
+        "packagesPath": "D:\\boldReport\\dashboard-designer-web-connection-live-plugin\\nuget-packages\\",
+        "outputPath": "D:\\boldReport\\dashboard-designer-web-connection-live-plugin\\src\\Dashboard.Connection.LiveWebConnection.Json\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "D:\\boldReport\\dashboard-designer-web-connection-live-plugin\\NuGet.Config",
+          "C:\\Users\\AnandamuruganSathiya\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "http://nexus.syncfusion.com/repository/boldbi-development/": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\boldReport\\dashboard-designer-web-connection-live-plugin\\src\\Dashboard.Connection.LiveWebConnection.Model\\Dashboard.Connection.BoldReportsWebConnection.Model.csproj": {
+                "projectPath": "D:\\boldReport\\dashboard-designer-web-connection-live-plugin\\src\\Dashboard.Connection.LiveWebConnection.Model\\Dashboard.Connection.BoldReportsWebConnection.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.CodeAnalysis.FxCopAnalyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.118, )"
+            },
+            "Syncfusion.Dashboard.Core": {
+              "target": "Package",
+              "version": "[*, )"
+            },
+            "Syncfusion.Dashboard.Core.JsonRepository": {
+              "target": "Package",
+              "version": "[*, )"
+            },
+            "Syncfusion.Dashboard.DataManager": {
+              "target": "Package",
+              "version": "[*, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\boldReport\\dashboard-designer-web-connection-live-plugin\\src\\Dashboard.Connection.LiveWebConnection.Model\\Dashboard.Connection.BoldReportsWebConnection.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\boldReport\\dashboard-designer-web-connection-live-plugin\\src\\Dashboard.Connection.LiveWebConnection.Model\\Dashboard.Connection.BoldReportsWebConnection.Model.csproj",
+        "projectName": "Syncfusion.Dashboard.Connection.LiveWebConnection.Model",
+        "projectPath": "D:\\boldReport\\dashboard-designer-web-connection-live-plugin\\src\\Dashboard.Connection.LiveWebConnection.Model\\Dashboard.Connection.BoldReportsWebConnection.Model.csproj",
+        "packagesPath": "D:\\boldReport\\dashboard-designer-web-connection-live-plugin\\nuget-packages\\",
+        "outputPath": "D:\\boldReport\\dashboard-designer-web-connection-live-plugin\\src\\Dashboard.Connection.LiveWebConnection.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "D:\\boldReport\\dashboard-designer-web-connection-live-plugin\\NuGet.Config",
+          "C:\\Users\\AnandamuruganSathiya\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "http://nexus.syncfusion.com/repository/boldbi-development/": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            },
+            "Microsoft.CodeAnalysis.FxCopAnalyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.118, )"
+            },
+            "Syncfusion.Dashboard.Core": {
+              "target": "Package",
+              "version": "[*, )"
+            },
+            "Syncfusion.Dashboard.DataManager": {
+              "target": "Package",
+              "version": "[*, )"
+            },
+            "Syncfusion.Dashboard.Designer.Logger": {
+              "target": "Package",
+              "version": "[*, )"
+            },
+            "Syncfusion.Dashboard.Json.Base": {
+              "target": "Package",
+              "version": "[*, )"
+            },
+            "Syncfusion.Dashboard.Web.Data.Handler": {
+              "target": "Package",
+              "version": "[*, )"
+            },
+            "Syncfusion.Dashboard.Web.Serialization.DOM": {
+              "target": "Package",
+              "version": "[*, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

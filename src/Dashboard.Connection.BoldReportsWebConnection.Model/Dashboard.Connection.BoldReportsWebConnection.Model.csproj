@@ -1,0 +1,70 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <Configurations>Debug;Release;onpremiseboldbi;onpremiseboldbi-debug</Configurations>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='onpremiseboldbi|AnyCPU'">
+    <DefineConstants>TRACE;onpremiseboldbi</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DefineConstants>TRACE;Release</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DefineConstants>TRACE;Debug</DefineConstants>
+    <OutputPath>D:\boldReport\dashboard-designer-web-service\src\bin\Debug\netcoreapp3.1\Plugins\connections\boldreportswebconnection\lib\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='onpremiseboldbi-debug|AnyCPU'">
+    <DefineConstants>TRACE;onpremiseboldbi</DefineConstants>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <AssemblySearchPaths>$(AssemblySearchPaths);$(ReferencePath)</AssemblySearchPaths>
+    <AssemblyName>Syncfusion.Dashboard.Connection.BoldReportsWebConnection.Model</AssemblyName>
+    <RootNamespace>Syncfusion.Dashboard.Connection.BoldReportsWebConnection.Model</RootNamespace>
+  </PropertyGroup>
+<ItemGroup>
+	<PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+</ItemGroup>
+  <ItemGroup Condition="!$(DefineConstants.Contains('onpremiseboldbi'))">    
+  <PackageReference Include="EntityFramework" Version="6.4.0" />
+    <PackageReference Include="Syncfusion.Dashboard.Core" Version="*" />
+    <PackageReference Include="Syncfusion.Dashboard.DataManager" Version="*" />
+    <PackageReference Include="Syncfusion.Dashboard.Json.Base" Version="*" />
+    <PackageReference Include="Syncfusion.Dashboard.Web.Data.Handler" Version="*" />
+    <PackageReference Include="Syncfusion.Dashboard.Web.Serialization.DOM" Version="*" />
+	<PackageReference Include="Syncfusion.Dashboard.Designer.Logger" Version="*" />
+    <PackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="3.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="StyleCop.Analyzers" Version="1.1.118">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup Condition="$(DefineConstants.Contains('onpremiseboldbi'))">
+	<Reference Include="Syncfusion.Dashboard.Json.Base">
+      <HintPath>..\..\assembly\Syncfusion.Dashboard.Json.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Dashboard.Core">
+      <HintPath>..\..\assembly\Syncfusion.Dashboard.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Dashboard.DataManager">
+      <HintPath>..\..\assembly\Syncfusion.Dashboard.DataManager.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Dashboard.Web.Data.Handler">
+      <HintPath>..\..\assembly\Syncfusion.Dashboard.Web.Data.Handler.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Dashboard.Web.Serialization.DOM">
+      <HintPath>..\..\assembly\Syncfusion.Dashboard.Web.Serialization.DOM.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Dashboard.Designer.Logger">
+      <HintPath>..\..\assembly\Syncfusion.Dashboard.Designer.Logger.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

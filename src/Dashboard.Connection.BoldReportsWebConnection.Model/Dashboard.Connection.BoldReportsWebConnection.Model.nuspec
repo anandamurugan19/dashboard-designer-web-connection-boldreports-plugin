@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+    <metadata>
+        <id>Syncfusion.Dashboard.Connection.BoldReportsWebConnection.Model</id>
+        <version>1.0.1</version>
+        <authors>Syncfusion Inc..</authors>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Syncfusion.Dashboard.Connection.BoldReportsWebConnection.Model</description>
+    </metadata>
+
+	<files>        
+		<file src="bin\Release\netcoreapp3.1\Syncfusion.Dashboard.Connection.BoldReportsWebConnection.Model.dll" target="lib\" />
+	</files>
+</package>

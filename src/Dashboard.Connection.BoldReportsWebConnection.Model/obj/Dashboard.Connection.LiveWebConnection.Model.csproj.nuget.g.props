@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">D:\boldReport\dashboard-designer-web-connection-live-plugin\nuget-packages\</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">D:\boldReport\dashboard-designer-web-connection-live-plugin\nuget-packages\;C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages;C:\Program Files\dotnet\sdk\NuGetFallbackFolder</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">5.11.1</NuGetToolVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <SourceRoot Include="D:\boldReport\dashboard-designer-web-connection-live-plugin\nuget-packages\" />
+    <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
+    <SourceRoot Include="C:\Program Files\dotnet\sdk\NuGetFallbackFolder\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+  </PropertyGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)microsoft.netframework.analyzers\3.0.0\build\Microsoft.NetFramework.Analyzers.props" Condition="Exists('$(NuGetPackageRoot)microsoft.netframework.analyzers\3.0.0\build\Microsoft.NetFramework.Analyzers.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.netcore.analyzers\3.0.0\build\Microsoft.NetCore.Analyzers.props" Condition="Exists('$(NuGetPackageRoot)microsoft.netcore.analyzers\3.0.0\build\Microsoft.NetCore.Analyzers.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.codequality.analyzers\3.0.0\build\Microsoft.CodeQuality.Analyzers.props" Condition="Exists('$(NuGetPackageRoot)microsoft.codequality.analyzers\3.0.0\build\Microsoft.CodeQuality.Analyzers.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.codeanalysis.versioncheckanalyzer\3.0.0\build\Microsoft.CodeAnalysis.VersionCheckAnalyzer.props" Condition="Exists('$(NuGetPackageRoot)microsoft.codeanalysis.versioncheckanalyzer\3.0.0\build\Microsoft.CodeAnalysis.VersionCheckAnalyzer.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.codeanalysis.fxcopanalyzers\3.0.0\build\Microsoft.CodeAnalysis.FxCopAnalyzers.props" Condition="Exists('$(NuGetPackageRoot)microsoft.codeanalysis.fxcopanalyzers\3.0.0\build\Microsoft.CodeAnalysis.FxCopAnalyzers.props')" />
+    <Import Project="$(NuGetPackageRoot)entityframework\6.4.0\buildTransitive\netcoreapp3.0\EntityFramework.props" Condition="Exists('$(NuGetPackageRoot)entityframework\6.4.0\buildTransitive\netcoreapp3.0\EntityFramework.props')" />
+  </ImportGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgStyleCop_Analyzers Condition=" '$(PkgStyleCop_Analyzers)' == '' ">D:\boldReport\dashboard-designer-web-connection-live-plugin\nuget-packages\stylecop.analyzers\1.1.118</PkgStyleCop_Analyzers>
+    <PkgMicrosoft_NetFramework_Analyzers Condition=" '$(PkgMicrosoft_NetFramework_Analyzers)' == '' ">D:\boldReport\dashboard-designer-web-connection-live-plugin\nuget-packages\microsoft.netframework.analyzers\3.0.0</PkgMicrosoft_NetFramework_Analyzers>
+    <PkgMicrosoft_NetCore_Analyzers Condition=" '$(PkgMicrosoft_NetCore_Analyzers)' == '' ">D:\boldReport\dashboard-designer-web-connection-live-plugin\nuget-packages\microsoft.netcore.analyzers\3.0.0</PkgMicrosoft_NetCore_Analyzers>
+    <PkgMicrosoft_CodeQuality_Analyzers Condition=" '$(PkgMicrosoft_CodeQuality_Analyzers)' == '' ">D:\boldReport\dashboard-designer-web-connection-live-plugin\nuget-packages\microsoft.codequality.analyzers\3.0.0</PkgMicrosoft_CodeQuality_Analyzers>
+    <PkgMicrosoft_CodeAnalysis_VersionCheckAnalyzer Condition=" '$(PkgMicrosoft_CodeAnalysis_VersionCheckAnalyzer)' == '' ">D:\boldReport\dashboard-designer-web-connection-live-plugin\nuget-packages\microsoft.codeanalysis.versioncheckanalyzer\3.0.0</PkgMicrosoft_CodeAnalysis_VersionCheckAnalyzer>
+    <PkgMicrosoft_CodeAnalysis_FxCopAnalyzers Condition=" '$(PkgMicrosoft_CodeAnalysis_FxCopAnalyzers)' == '' ">D:\boldReport\dashboard-designer-web-connection-live-plugin\nuget-packages\microsoft.codeanalysis.fxcopanalyzers\3.0.0</PkgMicrosoft_CodeAnalysis_FxCopAnalyzers>
+    <PkgEntityFramework Condition=" '$(PkgEntityFramework)' == '' ">D:\boldReport\dashboard-designer-web-connection-live-plugin\nuget-packages\entityframework\6.4.0</PkgEntityFramework>
+  </PropertyGroup>
+</Project>
