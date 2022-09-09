@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dashboard.Connection.BoldReportsWebConnection", "Dashboard.Connection.BoldReportsWebConnection.csproj", "{F70437B9-1FAA-4F7D-B89B-F788EEDFE5D6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dashboard.Connection.BoldReportsWebConnection.Json", "..\Dashboard.Connection.BoldReportsWebConnection.Json\Dashboard.Connection.BoldReportsWebConnection.Json.csproj", "{2134FE12-8C9A-4695-A9FD-4C5CA14D7350}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dashboard.Connection.BoldReportsWebConnection.Model", "..\Dashboard.Connection.BoldReportsWebConnection.Model\Dashboard.Connection.BoldReportsWebConnection.Model.csproj", "{3F65F877-1BF4-468D-96FA-EE206C47CF85}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		onpremiseboldbi|Any CPU = onpremiseboldbi|Any CPU
+		onpremiseboldbi-debug|Any CPU = onpremiseboldbi-debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F70437B9-1FAA-4F7D-B89B-F788EEDFE5D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F70437B9-1FAA-4F7D-B89B-F788EEDFE5D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F70437B9-1FAA-4F7D-B89B-F788EEDFE5D6}.onpremiseboldbi|Any CPU.ActiveCfg = onpremiseboldbi|Any CPU
+		{F70437B9-1FAA-4F7D-B89B-F788EEDFE5D6}.onpremiseboldbi|Any CPU.Build.0 = onpremiseboldbi|Any CPU
+		{F70437B9-1FAA-4F7D-B89B-F788EEDFE5D6}.onpremiseboldbi-debug|Any CPU.ActiveCfg = onpremiseboldbi-debug|Any CPU
+		{F70437B9-1FAA-4F7D-B89B-F788EEDFE5D6}.onpremiseboldbi-debug|Any CPU.Build.0 = onpremiseboldbi-debug|Any CPU
+		{F70437B9-1FAA-4F7D-B89B-F788EEDFE5D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F70437B9-1FAA-4F7D-B89B-F788EEDFE5D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2134FE12-8C9A-4695-A9FD-4C5CA14D7350}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2134FE12-8C9A-4695-A9FD-4C5CA14D7350}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2134FE12-8C9A-4695-A9FD-4C5CA14D7350}.onpremiseboldbi|Any CPU.ActiveCfg = onpremiseboldbi|Any CPU
+		{2134FE12-8C9A-4695-A9FD-4C5CA14D7350}.onpremiseboldbi|Any CPU.Build.0 = onpremiseboldbi|Any CPU
+		{2134FE12-8C9A-4695-A9FD-4C5CA14D7350}.onpremiseboldbi-debug|Any CPU.ActiveCfg = onpremiseboldbi-debug|Any CPU
+		{2134FE12-8C9A-4695-A9FD-4C5CA14D7350}.onpremiseboldbi-debug|Any CPU.Build.0 = onpremiseboldbi-debug|Any CPU
+		{2134FE12-8C9A-4695-A9FD-4C5CA14D7350}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2134FE12-8C9A-4695-A9FD-4C5CA14D7350}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F65F877-1BF4-468D-96FA-EE206C47CF85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F65F877-1BF4-468D-96FA-EE206C47CF85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F65F877-1BF4-468D-96FA-EE206C47CF85}.onpremiseboldbi|Any CPU.ActiveCfg = onpremiseboldbi|Any CPU
+		{3F65F877-1BF4-468D-96FA-EE206C47CF85}.onpremiseboldbi|Any CPU.Build.0 = onpremiseboldbi|Any CPU
+		{3F65F877-1BF4-468D-96FA-EE206C47CF85}.onpremiseboldbi-debug|Any CPU.ActiveCfg = onpremiseboldbi-debug|Any CPU
+		{3F65F877-1BF4-468D-96FA-EE206C47CF85}.onpremiseboldbi-debug|Any CPU.Build.0 = onpremiseboldbi-debug|Any CPU
+		{3F65F877-1BF4-468D-96FA-EE206C47CF85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F65F877-1BF4-468D-96FA-EE206C47CF85}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D4BE2805-4562-4F98-A4EB-CFF17CAD2ED9}
+	EndGlobalSection
+EndGlobal

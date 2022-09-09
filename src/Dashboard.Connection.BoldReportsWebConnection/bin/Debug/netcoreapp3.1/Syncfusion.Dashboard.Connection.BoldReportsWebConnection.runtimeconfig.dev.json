@@ -1,0 +1,10 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\AnandamuruganSathiya\\.dotnet\\store\\|arch|\\|tfm|",
+      "D:\\boldReport\\dashboard-designer-web-connection-bold-reports-plugin\\nuget-packages",
+      "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+    ]
+  }
+}
