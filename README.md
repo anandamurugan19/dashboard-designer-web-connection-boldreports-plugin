@@ -1,0 +1,1 @@
+Plugin to perform live connection in extract mode data sources in BoldBI Dashboards.
